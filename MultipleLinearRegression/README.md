@@ -11,7 +11,7 @@
 3.	Interpretation of Coefficient Estimate:
 
 
-4. Dataset: [Linear Regression - Example Data.csv](MultipleLinearRegression/Linear Regression - Example Data.csv)
+4. Dataset: [Linear Regression - Example Data.csv](Linear Regression - Example Data.csv)
    
 5. Code Implementation: 
 
