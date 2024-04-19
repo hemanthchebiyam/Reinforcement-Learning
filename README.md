@@ -3,3 +3,4 @@ Reinforcement learning has gradually become one of the most active research area
 
 This repository contains the implementation of a few basic concepts in reinforcement learning and some RL Algorithms codes.
 
+Multiple Linear Regression
