@@ -36,7 +36,7 @@ Here, the slope is 0.633. It means that for every one-unit increase in X, Y is e
 
 3.	Plotting Y vs Number of Children. Does it seem like the dependent variable Y is related to number of children?
 
- ![B4](/resources/B4.png)
+ ![B4](/resources/B4.jpg)
  
 As we can see from the bar plot, the average risk score remains relatively constant across different categories of the 'children' variable, and it indicates that the number of children may not have a significant impact on the risk score. There is no consistent pattern where Y increases or decreases as the number of children goes up.
 
