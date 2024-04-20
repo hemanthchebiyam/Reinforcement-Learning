@@ -10,33 +10,25 @@ direction)
 
 • **<u>Environment Dynamics</u>**:
 
-– With probability of 0.8 the robot moves in a
-specified direction.
+  – With probability of 0.8 the robot moves in a specified direction.
 
-– With p = 0.05 it gets confused and veers to the
-right i.e. + 900 from where it attempted to
-move (i.e. AU results in AR or AL, etc.)
+  – With p = 0.05 it gets confused and veers to the right i.e. + 900 from where it attempted to move (i.e. AU results in AR or AL, etc.)
 
-– With p = 0.05 it gets confused and veers to the
-left i.e. - 900 from where it attempted to move
+  – With p = 0.05 it gets confused and veers to the left i.e. - 900 from where it attempted to move
 
-– With p = 0.1 the robot temporarily breaks and
-does not move at all
+  – With p = 0.1 the robot temporarily breaks and does not move at all
 
-– If dynamics would cause the agent to EXIT or
-hit OBSTACLE then the agent does not move
+  – If dynamics would cause the agent to EXIT or hit OBSTACLE then the agent does not move
 
-– Start in STATE = 1 and the process ends
-when STATE = 23
+  – Start in STATE = 1 and the process ends when STATE = 23
 
 • **<u>Rewards</u>**:
 
-– Receives -10 if enters in the WATER state. Receives additional -10 if stays
-in the same sate (hitting the wall, etc.)
+  – Receives -10 if enters in the WATER state. Receives additional -10 if stays in the same sate (hitting the wall, etc.)
 
-– Receives +10 if enters in the GOAL state 23
+  – Receives +10 if enters in the GOAL state 23
 
-– Entering any other state results in reward = 0
+  – Entering any other state results in reward = 0
 #
 
 ## Task 1
@@ -55,7 +47,7 @@ I have implemented the value iteration algorithm to find the optimal policy. In 
 case, the agent will select actions that will provide maximum future discounted
 rewards. I have report the optimal policy.
 
-![ValueIteration](image.png)
+![image](/resources/image.png)
 
     Optimal Policy:
     AD	AD	AD	AD	AU	
