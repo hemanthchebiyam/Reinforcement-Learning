@@ -11,9 +11,9 @@
 3.	Interpretation of Coefficient Estimate:
 
 
-4. Dataset: [Linear Regression - Example Data.csv](Linear Regression - Example Data.csv)
+4. Dataset: [Linear Regression - Example Data.csv](https://github.com/hemanthchebiyam/Reinforcement-Learning/blob/main/MultipleLinearRegression/Health%20Insurance%20Dataset.csv)
    
-5. Code Implementation: 
+5. Code Implementation: [Linear_Regression_Model.py](https://github.com/hemanthchebiyam/Reinforcement-Learning/blob/main/MultipleLinearRegression/Linear_Regression_Model.py)
 
 The intercept represents the predicted value of Y when X is zero.
 Here, the intercept is 6.58
