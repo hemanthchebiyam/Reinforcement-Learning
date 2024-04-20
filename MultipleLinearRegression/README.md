@@ -1,20 +1,24 @@
 # [Project A] Linear Regression Model for Predicting Y from X
 
-1.	Building the Linear Regression Model:
+1. Dataset: [Linear Regression - Example Data.csv](https://github.com/hemanthchebiyam/Reinforcement-Learning/blob/main/MultipleLinearRegression/Health%20Insurance%20Dataset.csv)
+
+2. Code Implementation: [Linear_Regression_Model.py](https://github.com/hemanthchebiyam/Reinforcement-Learning/blob/main/MultipleLinearRegression/Linear_Regression_Model.py)
+
+3.	Building the Linear Regression Model:
 
 ![A1](/resources/A1.png) 
 
-2.	Model Accuracy Evaluation:
+4.	Model Accuracy Evaluation:
 
 ![A2](/resources/A2.png) 
 
-3.	Interpretation of Coefficient Estimate:
+5.	Interpretation of Coefficient Estimate:
 
 ![A3](/resources/A3.png)
 
-4. Dataset: [Linear Regression - Example Data.csv](https://github.com/hemanthchebiyam/Reinforcement-Learning/blob/main/MultipleLinearRegression/Health%20Insurance%20Dataset.csv)
+
    
-5. Code Implementation: [Linear_Regression_Model.py](https://github.com/hemanthchebiyam/Reinforcement-Learning/blob/main/MultipleLinearRegression/Linear_Regression_Model.py)
+
 
 The intercept represents the predicted value of Y when X is zero.
 Here, the intercept is 6.58
@@ -26,26 +30,30 @@ Here, the slope is 0.633. It means that for every one-unit increase in X, Y is e
 
 # [Project B] Multiple linear regression model for predicting insurance charges
 
-1.	Creating a new dependent variable Y
+1. Dataset: [Health Insurance Dataset.csv](https://github.com/hemanthchebiyam/Reinforcement-Learning/blob/main/MultipleLinearRegression/Health%20Insurance%20Dataset.csv)
+   
+2. Code Implementation: [Multiple_Linear_Regression_Model.py](/MultipleLinearRegression/Multiple_Linear_Regression_Model.py)
+
+4.	Creating a new dependent variable Y
 
  ![B1](/resources/B1.png)
 
-2.	Dataset Splitting
+4.	Dataset Splitting
 
   ![B2](/resources/B2.png)
 
-3.	Plotting Y vs Number of Children. Does it seem like the dependent variable Y is related to number of children?
+5.	Plotting Y vs Number of Children. Does it seem like the dependent variable Y is related to number of children?
 
  ![B4](/resources/B4.jpg)
  
 As we can see from the bar plot, the average risk score remains relatively constant across different categories of the 'children' variable, and it indicates that the number of children may not have a significant impact on the risk score. There is no consistent pattern where Y increases or decreases as the number of children goes up.
 
-4.	Multiple Linear Regression Model
+6.	Multiple Linear Regression Model
 
  ![B3](/resources/B3.png)
 
  
-5.	Interpretation of Coefficient Estimates
+7.	Interpretation of Coefficient Estimates
 
  ![B5](/resources/B5.png)
  
