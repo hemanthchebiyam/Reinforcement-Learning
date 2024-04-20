@@ -41,7 +41,7 @@ state-action pairs that agent experienced during the episode; it is the memory
 that stores this information for the brain to process.
 
 
-My Implementation:
+### My Implementation:
 
 I have implemented Q-Learning for GridWorld.
 Defined 3 distinct classes to make code conceptually easier to
