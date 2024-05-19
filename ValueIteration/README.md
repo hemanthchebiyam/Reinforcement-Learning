@@ -45,7 +45,7 @@ discounted returns.
 ## Task 2
 I have implemented the value iteration algorithm to find the optimal policy. In this
 case, the agent will select actions that will provide maximum future discounted
-rewards. I have report the optimal policy.
+rewards. The optimal policy is printed.
 
 ![image](/resources/image.png)
 
@@ -71,9 +71,8 @@ rewards. I have report the optimal policy.
     Reached the goal state with a total reward of: 10.0
 
 ## Task 3
-I have run the optimal policy that I found in Task 2 for 10,000 iterations. Further, I have compared the mean,
-standard deviation, maximum, and minimum of the observed discounted
-returns with Task 1.
+I have run the optimal policy found in Task 2 for 10,000 iterations. Further, I have compared the mean,
+standard deviation, maximum, and minimum of the observed discounted returns with Task 1.
 
     Task 3 Results:
     Mean: 3.921796074201619
